@@ -12,7 +12,7 @@ print("Klienten er klar til at sende beskeder")
 print("======================================")
 print()
 print()
-###################################################################
+###############################################################################################################################################################################################################################
 while True:
     message=input('Hvilken spiller?: ') #fortæller brugeren, at den nu skal indtaste hvilken spiller
     clientSocket.sendto(message.encode(), (serverName, serverPort)) #det tidligere input, bliver så sendt til serveren, ved at bruge tidligere allokerede variabler "serverName & serverPort"
