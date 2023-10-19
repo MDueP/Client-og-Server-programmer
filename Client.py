@@ -12,5 +12,8 @@ print()
 print()
 
 while True:
-    message=input('Skriv noget til serveren: ')
-    clientSocket.sendto(message.encode(),(serverName, serverPort))
+    spiller=input('Skriv noget til serveren: ')
+    tidspunkt=input('Indtast tidspunkt: ')
+    observation=input('Indtast hvad du så: ')
+    message=(spiller, tidspunkt, observation)
+    clientSocket.sendto(message.encode(), (serverName, serverPort))
