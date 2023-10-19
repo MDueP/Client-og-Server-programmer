@@ -5,7 +5,7 @@ serverName = '172.16.0.40' # Serverens IP-addresse - Det skal man vide på forh�
 serverPort = 12000 # hver sikker på at serveren har den samme port. Det er 'nøglen' til døren, så man er sikker på at man går ind af den samme dør, så at sige
 clientSocket = socket(AF_INET, SOCK_DGRAM) # her tager vi AddressFamily(IP) og SOCKDGRAM(porten) fra clienten. Vi gemmer de to ting i en variabel for senere brug
 #################################################################################################################################################################
-####Placeholder print. Det er en indikation til brugere omkring at kode virker og nu er klar. Det er taget fra 
+####Placeholder print. Det er en indikation til brugere omkring at kode virker og nu er klar
 print()
 print("======================================")
 print("Klienten er klar til at sende beskeder")
