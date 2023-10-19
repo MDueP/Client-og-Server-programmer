@@ -23,3 +23,5 @@ while True:
     clientSocket.sendto(message.encode(), (serverName, serverPort))
 #    Vi gør altså det samme resten af koden, bare med forskellig input, så brugeren ved hvad de skal indtaste
 #    vi sender variablen efter hvert input for at vi ikke behøver at lave en variabel for hver input. Den optager altså kun variablen: message. indtil den er sendt til severen og bliver derefter lavet om til det næste input
+#    "datetime - Basic date and time types", https://docs.python.org/3/library/datetime.html#module-datetime (2023-19-10)
+#    "logging - Logging facility for Python", https://docs.python.org/3/library/logging.html (2023-19-10)
