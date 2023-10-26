@@ -38,3 +38,5 @@ while True:    #    while loop, der bare kører konstant, eller så længe den e
     print ()    #    brugt som spacer
     log = message.decode(), str(klient)    #vi tager tuplen klient, som vi har modtaget fra Client der indeholder AF_INET og SOCK_DGRAM og ændre dens class til en string værdi, fra integer og putter den i en variabel ved navn log med den decoded message
     logger.info(log)    #    her henter vi den tidligere anvendte variabel "log" og putter ind i selveste log filen som vi tidligere har navngivet til '{:%Y-%m-%d}.log' - med andre den nuværende år, måned og dag
+#    "datetime - Basic date and time types", https://docs.python.org/3/library/datetime.html#module-datetime (2023-19-10)
+#    "logging - Logging facility for Python", https://docs.python.org/3/library/logging.html (2023-19-10)
