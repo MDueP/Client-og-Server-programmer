@@ -8,7 +8,7 @@ from datetime import datetime
 #    vi laver altså variabler, ligesom i client. Den her gang behøver vi bare ikke at lave en variabel til hvor vi skal sende vores data, da vi kun skal modtage den.
 serverPort = 12000
 serverSocket = socket(AF_INET, SOCK_DGRAM) 
-
+serverSocket.bind (('', serverPort))
 ############################################################################
 #    før while loopet, laver vi en print indikator på at serveren er oppe og
 #    der ikke umiddelbart er noget galt med koden ved at vise str værdien:
